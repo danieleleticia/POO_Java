@@ -1,0 +1,24 @@
+# Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
