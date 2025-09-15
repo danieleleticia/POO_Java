@@ -40,7 +40,7 @@ public class Main
 
         Cliente cliente = new Cliente("Daniele Letícia Pereira Sousa", "99988877720");
 
-        //criando vetor na main para que seja possivel contabiliza as compras com ASSOCIAÇÃO SIMPLES
+        //criando vetor na main para que seja possivel contabilizar as compras com ASSOCIAÇÃO SIMPLES
         Computador[] carrinho = new Computador[10];
         int quant = 0;
 

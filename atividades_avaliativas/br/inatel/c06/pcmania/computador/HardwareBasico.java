@@ -13,6 +13,7 @@ public class HardwareBasico
         this.capacidade = capacidade;
     }
 
+    //getters
     public String getNome()
     {
         return nome;

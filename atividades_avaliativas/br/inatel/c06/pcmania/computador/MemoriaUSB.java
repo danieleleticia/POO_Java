@@ -13,6 +13,7 @@ public class MemoriaUSB
         this.capacidade = capacidade;
     }
 
+    //getters
     public String getNome()
     {
         return nome;

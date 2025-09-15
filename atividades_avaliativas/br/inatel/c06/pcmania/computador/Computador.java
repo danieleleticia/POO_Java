@@ -16,14 +16,13 @@ public class Computador
         this.preco = preco;
         so = new SistemaOperacional(nome, tipo);
     }
-//metodos
 
+    //getters
     public float getPreco()
     {
         return preco;
     }
-
-    public void addHardware(String nome, float capacidade)
+    public void addHardware(String nome, float capacidade) //composição
     {
         for(int i = 0; i < hardware.length; i++)
         {

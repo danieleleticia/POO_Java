@@ -16,6 +16,7 @@ public class Cliente
         this.cpf = cpf;
     }
 
+    //getters e setters
     public String getNome()
     {
         return nome;
@@ -36,6 +37,7 @@ public class Cliente
         this.computadores = computadores;
     }
 
+    //metodos
     public float calculaTotalCompra()
     {
         float totalCompra = 0;
